@@ -17,14 +17,23 @@ export const Container = styled.div`
       color: #fff;
       border: 0;
       border-radius: 4px;
-      padding: 12px 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: background 0.5s;
+      overflow: hidden;
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      transition: background 0.2s;
+      padding: 12px;
+
       &:hover {
         background: ${darken(0.05, '#7159c1')};
       }
-    }
+
+      span {
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 5px;
+      }
   }
 `;
 

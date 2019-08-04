@@ -3,6 +3,7 @@ import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
   MdDelete,
+  MdCheck,
 } from 'react-icons/md';
 
 import { Container, ProductTable, Total } from './styles';
@@ -55,7 +56,10 @@ export default function Cart() {
         </tbody>
       </ProductTable>
       <footer>
-        <button type="button">Finalizar pedido</button>
+        <button type="button">
+          <MdCheck size={16} color="#fff" />
+          <span>Finalizar pedido</span>
+        </button>
         <Total>
           <span>TOTAL</span>
           <strong>R$1920,00</strong>

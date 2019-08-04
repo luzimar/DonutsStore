@@ -1,0 +1,66 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Donut de Chocolate",
+      "price": 3.9,
+      "image": "https://i.redd.it/j8yw3zrxnxf21.png"
+    },
+    {
+      "id": 2,
+      "title": "Donut de Morango",
+      "price": 2.9,
+      "image": "http://pngimg.com/uploads/donut/donut_PNG30.png"
+    },
+    {
+      "id": 3,
+      "title": "Donut de Chocolate com granulado",
+      "price": 4.5,
+      "image": "https://i.redd.it/j8yw3zrxnxf21.png"
+    },
+    {
+      "id": 5,
+      "title": "Donut de Morango com granulado",
+      "price": 3.5,
+      "image": "http://pngimg.com/uploads/donut/donut_PNG30.png"
+    },
+    {
+      "id": 6,
+      "title": "Donut de Chocolate ao leite",
+      "price": 3.7,
+      "image": "https://i.redd.it/j8yw3zrxnxf21.png"
+    },
+    {
+      "id": 4,
+      "title": "Donut de Morango com chantily",
+      "price": 3.8,
+      "image": "http://pngimg.com/uploads/donut/donut_PNG30.png"
+    }
+  ]
+}
