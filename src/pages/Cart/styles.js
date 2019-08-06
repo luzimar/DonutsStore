@@ -6,6 +6,49 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     img {
+      height: 36px;
+      width: 36px;
+      margin-right: 10px;
+    }
+
+     span {
+      font-size: 16px;
+      font-weight: bold;
+      color: #2C4CA4;
+    }
+
+     a {
+      margin-left: 10px;
+      color: #04E474;
+      text-decoration: none;
+      font-size: 16px;
+
+      &:after {
+      content: '';
+      width: 0px;
+      height: 1px;
+      display: block;
+      background: ${darken(0.05, '#04E474')};
+      transition: 300ms;
+      }
+
+      &:hover {
+        color: ${darken(0.05, '#04E474')};
+      }
+
+      &:hover:after {
+        width: 100%;
+      }
+    }
+
+  }
+
   footer {
     margin-top: 30px;
     display: flex;
@@ -82,6 +125,14 @@ export const ProductTable = styled.table`
     background: none;
     border: 0;
     padding: 6px;
+    transition: fill 0.2s;
+
+    .btnUpdate:hover {
+      fill: ${darken(0.05, '#7159c1')};
+    }
+    .btnDelete:hover {
+      fill: ${darken(0.05, '#da4567')};
+    }
   }
 `;
 

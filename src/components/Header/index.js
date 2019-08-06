@@ -24,6 +24,10 @@ function Header({ cartSize }) {
   );
 }
 
+function getCartSize(cart) {
+  return cart.reduce((acumulator, product) => acumulator + product.amount, 0);
+}
+
 export default connect(state => ({
-  cartSize: state.cart.length,
+  cartSize: getCartSize(state.cart),
 }))(Header);
