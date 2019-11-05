@@ -5,6 +5,8 @@ export const Container = styled.div`
   padding: 30px;
   background: #fff;
   border-radius: 4px;
+  max-width: 1020px;
+  margin: 0 auto;
 
   > div {
     display: flex;

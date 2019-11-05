@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const ProductList = styled.ul`
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
@@ -10,9 +13,10 @@ export const ProductList = styled.ul`
   li {
     display: flex;
     flex-direction: column;
-    background: #fff;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 20px;
+    transition: 0.5s;
+    overflow: hidden;
 
     img {
       align-self: center;
@@ -24,11 +28,15 @@ export const ProductList = styled.ul`
       line-height: 20px;
       color: #333;
       margin-top: 20px;
+      transition: 0.5s;
+      transform: translateX(280px);
     }
     > span {
       font-size: 20px;
       font-weight: bold;
       margin: 5px 0 20px;
+      transition: 0.5s;
+      transform: translateX(-280px);
     }
 
     button {
@@ -41,6 +49,8 @@ export const ProductList = styled.ul`
       display: flex;
       align-items: center;
       transition: background 0.2s;
+      transition: 0.5s;
+      transform: translateY(600px);
 
       &:hover {
         background: ${darken(0.05, '#7159c1')};
@@ -63,5 +73,20 @@ export const ProductList = styled.ul`
         }
       }
     }
+  }
+  li:hover {
+    background: #fff;
+  }
+
+  li:hover > strong {
+    transform: translateX(0);
+  }
+
+  li:hover > span {
+    transform: translateX(0);
+  }
+
+  li:hover button {
+    transform: translateY(0);
   }
 `;

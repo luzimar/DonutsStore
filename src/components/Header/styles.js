@@ -5,7 +5,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0 50px 0;
+  padding: 10px 100px;
+  margin-bottom: 30px;
+  width: 100%;
+  border-bottom: 1px solid #666;
+  background: #333;
   img {
     width: 100px;
   }

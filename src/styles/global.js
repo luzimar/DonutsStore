@@ -11,22 +11,18 @@ export default createGlobalStyle`
 }
 
 body {
-  /* background: linear-gradient(to bottom, transparent, black), url(${background}); */
-  background: #191919 url(${background}) no-repeat center top;
+   background: linear-gradient(to bottom, #614385, #516395);
+  /* background: #191919 url(${background}) no-repeat center top; */
   background-size: cover;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
 
 body, input, button {
   font: 14px Roboto, sans-serif;
 }
 
-#root{
-  max-width: 1020px;
-  margin: 0 auto;
-  padding: 0 20px 50px;
 
-  }
 
   button {
     cursor: pointer;
