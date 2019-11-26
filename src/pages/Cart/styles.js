@@ -1,5 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { darken } from 'polished';
+
+const teste = keyframes`
+    from {
+    opacity: 0;
+  }
+
+  to {
+   opacity: 1;
+  }
+`;
 
 export const Container = styled.div`
   padding: 30px;
@@ -7,11 +17,17 @@ export const Container = styled.div`
   border-radius: 4px;
   max-width: 1020px;
   margin: 0 auto;
+  animation: ${teste} 0.8s forwards;
+  animation-timing-function: ease-out;
+  overflow: hidden;
+  margin-bottom: 50px;
 
   > div {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: ${teste} 0.8s forwards;
+    animation-timing-function: ease-out;
 
      img {
       height: 36px;

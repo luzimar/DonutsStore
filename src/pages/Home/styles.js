@@ -1,7 +1,19 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { darken } from 'polished';
 
+const teste = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+   opacity: 1;
+  }
+`;
+
 export const ProductList = styled.ul`
+  animation: ${teste} 2s forwards;
+  animation-timing-function: ease-out;
   max-width: 1020px;
   margin: 0 auto;
   padding: 0 20px 50px;

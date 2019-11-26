@@ -5,13 +5,14 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 100px;
+  padding: 5px 100px;
   margin-bottom: 30px;
   width: 100%;
   border-bottom: 1px solid #666;
   background: #333;
   img {
-    width: 100px;
+    height: 60px;
+    width: 80px;
   }
 `;
 
