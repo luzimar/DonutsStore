@@ -1,5 +1,0 @@
-# Para rodar o json server basta:
-json-server server.json -p 3333
-
-# Para rodar o frontend basta:
-yarn start
