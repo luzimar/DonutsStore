@@ -20,7 +20,7 @@
   <img alt="Frontend" src=".readme/cart.png" width="100%">
 </p>
 
-## Tecnologias
+## ⚙️ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
