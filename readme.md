@@ -6,7 +6,7 @@
   🍩 Donut Store
 </h4>
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#metro-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -20,7 +20,7 @@
   <img alt="Frontend" src=".readme/cart.png" width="100%">
 </p>
 
-## ⚙️ Tecnologias
+## :metro: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
