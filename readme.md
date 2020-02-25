@@ -3,11 +3,13 @@
 </h1>
 
 <h4 align="center">
-  🍩 Donut Store
+  🍩 Donut Store 🍩
 </h4>
 <p align="center">
   <a href="#metro-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#fire-dependências">Dependências</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#key-como-inicializar">Como inicializar?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -30,13 +32,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Donut Store é uma e-commerce no seguimento de doces, mais precisamente Donut's.
 
-### Install dependencies
+## :fire: Dependências
 
 Para instalar as dependências de pacotes basta:
 
 - npm install ou yarn
 
-### Startup
+## :key: Como inicializar?
 
 Para inicilizar deve-se seguir os passos abaixo:
 
